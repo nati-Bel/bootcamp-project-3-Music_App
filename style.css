@@ -24,10 +24,12 @@ color:#86f3b8 !important;
 button:hover {
   cursor: pointer;
   box-shadow: rgba(240, 225, 225, 0.2)  0px 5px 15px;
+  
 }
 button:active {
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
-    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px; 
+    
 }
 
 .logo {
@@ -59,4 +61,15 @@ button:active {
     color:#86f3b8;
     background-color: #482d57;
     border-color:#86f3b8
+}
+
+
+.section-drum {
+    padding-top:100px;
+    background-color: #86f3b8;
+}
+
+
+.section-premium {
+    background-color:#03c1eb ;
 }
