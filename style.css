@@ -185,6 +185,86 @@ background-color: #86f3b8;
    
 }
 
+#rideCymbal{
+
+    width: 180px;
+    height: 164px;
+    left: 479px;
+    top:237px;
+
+    position: absolute;
+    background: url(resources/platillo\ derecho.png );
+
+    
+}
+
+#rideCymbal:active{
+    animation-name: scale-up;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+
+}
+
+#midTom{
+    width: 175px;
+    height: 152px;
+    left: 354px;
+    top: 260px;
+
+    position: absolute;
+    background: url(resources/tambor-superior-derecha.png);
+}
+
+#midTom:active{
+    animation-name: scale-up;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+
+#snareDrum{
+    width: 164px;
+    height: 153px ;
+    left: 219px;
+    top: 400px;
+
+    position: absolute;
+    background: url(resources/tambor-inferior-izquierdo.png);
+}
+
+#snareDrum:active{
+    animation-name: scale-up;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+
+#floorTom{
+    width:149px;
+    height: 138px;
+    left: 409px;
+    top:427px;
+
+    position: absolute;
+    background: url(resources/tambor-inferior-derecho.png);
+}
+
+#floorTom:active{
+    animation-name: scale-up;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+
 
 
 
