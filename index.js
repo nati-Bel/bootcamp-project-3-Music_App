@@ -1,3 +1,5 @@
+
+
 let crashPlay = document.getElementById("crash")
 
 crashPlay.addEventListener ("click", () => {
@@ -5,13 +7,6 @@ crashPlay.addEventListener ("click", () => {
     audioTag.setAttribute("src", "sonidos/crash.wav")
     audioTag.play()
 })
-
-
-
-
-
-
-
 
 let hiHatPlay = document.getElementById("hiHat")
 
@@ -28,9 +23,6 @@ highTomPlay.addEventListener ("click", () => {
     audioTag.setAttribute("src", "sonidos/tom1.wav")
     audioTag.play()
 })
-
-
-
 
 let rideCymbalPlay = document.getElementById("rideCymbal")
 
@@ -66,3 +58,29 @@ snareDrumPlay.addEventListener ("click", () => {
     audioTag.play()
 
 })
+
+//PRUEBAS CON JAVASCRIPT PARA LAS TECLAS
+
+// Obtener una referencia al elemento con el ID "crash"
+let crashElement = document.getElementById("crash");
+
+// Función para reproducir el sonido al presionar la tecla "A"
+function playCrashSound() {
+    let audioTag = document.createElement("audio");
+    audioTag.setAttribute("src", "sonidos/crash.wav");
+    audioTag.play();
+}
+
+// Evento para detectar la tecla "A" presionada y soltada
+document.addEventListener("keydown", function(event) {
+    if (event.key === "a" || event.key === "A") {
+        crashElement.classList.add("crash-animation");
+        playCrashSound();
+    }
+});
+
+document.addEventListener("keyup", function(event) {
+    if (event.key === "a" || event.key === "A") {
+        crashElement.classList.remove("crash-animation");
+    }
+});

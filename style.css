@@ -66,7 +66,7 @@ button:active {
 
 body{
 
-    background-color: #86f3b8;
+    background-color: blue;
 }
 
 .mainContainer{
@@ -183,11 +183,25 @@ body{
     position: absolute;
     background: url(resources/plato1.png);
     
-    
-  
-    
+      
     
 }
+
+/* PRUEBAS PARA TECLAS*/
+
+.crash-animation {
+    animation-name: scale-up;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+
+
+
+
+/*HASTA AQUÍ LAS PRUEBAS*/
 
 #crash:active{
     animation-name: scale-up;
