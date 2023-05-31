@@ -189,7 +189,9 @@ body{
 
 /* PRUEBAS PARA TECLAS*/
 
-.crash-animation {
+.crash-animation, .hiHat-animation, .rideCymbal-animation, 
+.highTom-animation, 
+.midTom-animation, .snareDrum-animation, .floorTom-animation {
     animation-name: scale-up;
     animation-duration: 0.4s;
     animation-timing-function: ease-out;
@@ -203,7 +205,7 @@ body{
 
 
 
-#crash:active{
+#crash:active, #hiHat:active, #rideCymbal:active, #highTom:active, #midTom:active, #snareDrum:active, #floorTom:active {
     animation-name: scale-up;
     animation-duration: 0.4s;
     animation-timing-function: ease-out;

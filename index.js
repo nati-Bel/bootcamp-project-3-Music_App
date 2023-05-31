@@ -61,15 +61,15 @@ snareDrumPlay.addEventListener ("click", () => {
 
 //PRUEBAS CON JAVASCRIPT PARA LAS TECLAS
 
-// Obtener una referencia al elemento con el ID "crash"
-let crashElement = document.getElementById("crash");
+// // Obtener una referencia al elemento con el ID "crash"
+// let crashElement = document.getElementById("crash");
 
-// Función para reproducir el sonido al presionar la tecla "A"
-function playCrashSound() {
-    let audioTag = document.createElement("audio");
-    audioTag.setAttribute("src", "sonidos/crash.wav");
-    audioTag.play();
-}
+// // Función para reproducir el sonido al presionar la tecla "A"
+// function playCrashSound() {
+//     let audioTag = document.createElement("audio");
+//     audioTag.setAttribute("src", "sonidos/crash.wav");
+//     audioTag.play();
+// }
 
 // Evento para detectar la tecla "A" presionada y soltada
 document.addEventListener("keydown", function(event) {
@@ -84,3 +84,37 @@ document.addEventListener("keyup", function(event) {
         crashElement.classList.remove("crash-animation");
     }
 });
+
+//js de YOLANDA
+
+let soundMap = {
+    'q': 'crash.wav',
+    'a': 'hit-hat.wav',
+    'w': 'tom1.wav',
+    's': 'tom3.wav',
+    'o': 'tom2.wav',
+    'l': 'tom4.wav',
+    'p': 'redoblante.wav'
+  };
+  
+  function handleKeyDown(event) {
+    let key = event.key.toLowerCase();
+    if (soundMap.hasOwnProperty(key)) {
+      playSound(soundMap[key]);
+    }
+  }
+  
+  function playSound(soundFile) {
+    let audio = new Audio(`sonidos/${soundFile}`);
+    audio.play();
+  }
+
+  // Funcion para animacion
+
+  function playAnimation(event) {
+    let audio = new Audio(`sonidos/${soundFile}`);
+    audio.play();
+  }
+      
+    document.addEventListener('keydown', handleKeyDown,);
+      
