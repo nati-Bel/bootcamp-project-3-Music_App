@@ -1,5 +1,7 @@
 <p align="center">
   <img src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/cedd430a-0a54-48fb-a199-bd3071d648d0"></p>
+
+<p align="center"><img src="https://img.shields.io/badge/STATUS-FINISHED-GREEN"></p>
   
 # *Introduction* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/f963cbe0-2639-4950-81d2-6f41e4f9a7f5">
 Our project is based on the creation of an interactive web application to teach musical instruments online.<br>
