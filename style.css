@@ -228,7 +228,8 @@ body{
     
 }
 
-#hiHat:active{
+
+/* #hiHat:active{
 
     animation-name: scale-up;
     animation-duration: 0.4s;
@@ -237,7 +238,7 @@ body{
     animation-direction: normal;
     animation-fill-mode: both;
 
-}
+} */
 
 #highTom{
     width: 138px;
@@ -249,7 +250,7 @@ body{
     background: url(resources/tambor\ 1.png);
 }
 
-#highTom:active{
+/* #highTom:active{
 
     animation-name: scale-up;
     animation-duration: 0.4s;
@@ -258,7 +259,7 @@ body{
     animation-direction: normal;
     animation-fill-mode: both;
    
-}
+} */
 
 #rideCymbal{
 
@@ -273,7 +274,7 @@ body{
     
 }
 
-#rideCymbal:active{
+/* #rideCymbal:active{
     animation-name: scale-up;
     animation-duration: 0.4s;
     animation-timing-function: ease-out;
@@ -281,7 +282,7 @@ body{
     animation-direction: normal;
     animation-fill-mode: both;
 
-}
+} */
 
 #midTom{
     width: 175px;
@@ -293,14 +294,14 @@ body{
     background: url(resources/tambor-superior-derecha.png);
 }
 
-#midTom:active{
+/* #midTom:active{
     animation-name: scale-up;
     animation-duration: 0.4s;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: both;
-}
+} */
 
 #snareDrum{
     width: 164px;
@@ -312,14 +313,14 @@ body{
     background: url(resources/tambor-inferior-izquierdo.png);
 }
 
-#snareDrum:active{
+/* #snareDrum:active{
     animation-name: scale-up;
     animation-duration: 0.4s;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: both;
-}
+} */
 
 #floorTom{
     width:149px;
@@ -331,14 +332,14 @@ body{
     background: url(resources/tambor-inferior-derecho.png);
 }
 
-#floorTom:active{
+/* #floorTom:active{
     animation-name: scale-up;
     animation-duration: 0.4s;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: both;
-}
+} */
 
 
 
