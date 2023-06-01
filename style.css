@@ -67,12 +67,17 @@ button:active {
 body{
 
     background-color: #86f3b8;
+
+}
+html, body {
+    height:100%;
 }
 
 .mainContainer{
     width: 100%;
     height: 720px;
     top: 135px;
+    
 
     display: flex;
     flex-wrap: wrap;
@@ -91,7 +96,7 @@ body{
 .musicForEveryone{
     width: 639px;
     height: 160.97px;
-    top: 245.77px;
+    top: 150px;
     left: 15px;
 
     position: absolute;
@@ -132,7 +137,7 @@ body{
 
     width: 364px;
     height: 108px;
-    top: 400px;
+    top: 300px;
     left: 121px;
     position: absolute;
 
@@ -160,7 +165,8 @@ body{
     width: 780px;
     height: 632px;
     right: 0px;
-    top: 135px;
+    top: 30px;
+    margin-bottom: 15px;
 }
 
 #drumImage{
@@ -344,13 +350,18 @@ body{
 
 footer {
     background-color:#03c1eb ;
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding:20px;
+    padding: 15px;
     color:#482d57;
     align-content: center;
     gap: 30px; 
+    bottom: 0;
+    position: absolute;
+    width:100%;
+    height: 120px;
+
 }
 
 #h3-footer {
@@ -370,4 +381,130 @@ footer {
   color:#482d57;
   border-color: #482d57;
   align-self:center;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1224px) {
+    footer {
+    position: relative;
+    height: 90px;
+    }
+#h3-footer {
+  
+  font-size: 30px;
+}
+
+#text-footer {
+  font-size: 14px;
+}
+
+.infoContainer{
+    width: 100%;
+    height: 632px;
+    top: 100px;
+    display: flex;
+    justify-content:flex-start;
+    gap:40px;
+
+    z-index: 3;}
+
+.slogan {
+    width: 45%;
+    display: inline-block;
+    margin-top: 0px;
+    
+
+}
+
+#sloganText {
+    
+    width: 400px;
+    height: 90px;
+    font-size: 40px;
+    line-height: 80px;}
+
+.secondaryInfo {
+    width: 30%;
+    position: relative;
+
+    
+    height: 108px;
+    top: 120px;
+    left: 121px;
+    
+
+}
+ .musicForEveryone {
+
+    width: 300px;
+    height: 160px;
+    top: 120px;
+    left: 15px;
+
+    position: relative;
+    transform: rotate(-5.82deg);}
+   
+#infoText {
+    font-size: 25px;
+    line-height: 30px;
+    
+}
+
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+   .cover {
+    background-color: black 
+    
+   }
+
+
+
+
+    /* .infoContainer {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .musicForEveryone {
+
+        width: 100px;
+        top: 100px;
+        left: 5px;
+
+        position: relative;
+        transform: none;}
+
+    #sloganText {
+    
+        width: 300px;
+        height: 90px;
+        font-size: 32px;
+        line-height: 80px;
+    }
+
+    .secondaryInfo {
+        width: 100%;
+        position: relative;
+
+        
+        height: 108px;
+        top: 120px;
+        left: 121px;}
+    
+    #infoText {
+        font-size: 25px;
+        line-height: 30px;}
+    
+    .drumKit{
+        display: flex;
+        position:relative;
+        width: 780px;
+        height: 632px;
+        top: 50px;
+        margin-bottom: 15px;
+    } */
+    
 }
