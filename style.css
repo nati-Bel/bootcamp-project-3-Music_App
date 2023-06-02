@@ -150,6 +150,55 @@ body{
     margin-bottom: 15px;
     z-index:2;
 }
+.key{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'kanit';
+    color:#86f3b8;
+}
+
+#keyQ {
+    position: absolute;
+    left: 159px;
+    top:108px;
+}
+#keyA {
+    position: absolute;
+    left: 92px;
+    top:93px;
+    z-index: 4;
+}
+#keyW {
+    position: absolute;
+    left: 52px;
+    top:46px;
+    color:#482d57;
+}
+#keyP {
+    position: absolute;
+    left: 64px;
+    top:94px;
+}
+#keyO {
+    position: absolute;
+    left: 70px;
+    top:53px;
+    color:#482d57;
+}
+#keyL {
+    position: absolute;
+    left: 69px;
+    top:45px;
+    color:#482d57;
+}
+#keyS {
+    position: absolute;
+    left: 71px;
+    top:53px;
+    color:#482d57;
+}
+
+
 
 #drumImage{
     display: flex;
@@ -315,6 +364,9 @@ footer {
     position: relative;
     height: 90px;
     }
+.key{
+    display: none;
+}
 
 #h3Footer {
   font-size: 30px;
