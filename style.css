@@ -142,6 +142,7 @@ button:active {
     right: 0px;
     top: 30px;
     margin-bottom: 15px;
+    z-index:2;
 }
 
 #drumImage{
@@ -354,12 +355,14 @@ footer {
     display: flex;
     justify-content:flex-start;
     gap:40px;
-    z-index: -3;}
+    z-index:1;
+   }
 
 .slogan {
     width: 45%;
     display: inline-block;
     margin-top: 0px;
+    z-index:1;
 }
 
 #sloganText {
@@ -374,6 +377,7 @@ footer {
     height: 108px;
     top: 120px;
     left: 121px;
+    z-index:1;
 }
 
  .musicForEveryone {
