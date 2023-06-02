@@ -1,0 +1,33 @@
+footer {
+    background-color:#03c1eb ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    color:#482d57;
+    align-content: center;
+    gap: 30px; 
+    bottom: 0;
+    position: absolute;
+    width:100%;
+    height: 120px;
+}
+
+#h3Footer {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#textFooter {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+#buttonPricing {
+  background-color: transparent;
+  color:#482d57;
+  border-color: #482d57;
+  align-self:center;
+}
