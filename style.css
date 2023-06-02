@@ -6,15 +6,17 @@
   box-sizing: border-box;
   margin: 0px;
   font-family: 'Inter', sans-serif ;
-  font-family: 'Open Sans', sans-serif ;
 }
 
+body{
 
+    background-color: #86f3b8;
+}
 .navbar {
     background-color:#482d57;
 }
 .nav-link {
-color:#86f3b8 !important;
+    color:#86f3b8 !important;
 }
 
 .nav-link:hover {
@@ -28,8 +30,7 @@ button:hover {
 }
 button:active {
     box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
-    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px; 
-    
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;     
 }
 
 .logo {
@@ -66,14 +67,13 @@ button:active {
 
 body{
 
-    background-color: blue;
+    background-color: #86f3b8;
 }
 
 .mainContainer{
     width: 100%;
     height: 720px;
     top: 135px;
-
     display: flex;
     flex-wrap: wrap;
     background-color: #86f3b8;
@@ -83,17 +83,14 @@ body{
     width: 50%;
     height: 632px;
     top: 135px;
-
     z-index: 3;
-
 }
 
 .musicForEveryone{
     width: 639px;
     height: 160.97px;
-    top: 245.77px;
+    top: 150px;
     left: 15px;
-
     position: absolute;
     transform: rotate(-5.82deg);
 }
@@ -102,45 +99,34 @@ body{
     width: 633.4px;
     height: 96.11px;
     left: 24.31px;
-    
     position: absolute;
 }
+
 #sloganText{
     position: absolute;
     width: 633.4px;
     height: 96.11px;
-    
-    
-
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
     line-height: 108px;
     text-align: center;
-
     color:#86f3b8;
     background-color: #76508e;
     transform: matrix(0.98. -0.2, 0.17, 0.99, 0, 0);
-
     z-index: 3;
-
-
 }
 
 .secondaryInfo{
-
     width: 364px;
     height: 108px;
-    top: 400px;
+    top: 300px;
     left: 121px;
     position: absolute;
-
-
 }
 
 #infoText{
-
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
@@ -148,10 +134,10 @@ body{
     line-height: 54px;
     display: flex;
     align-items: center;
-
     color: #76508e;
-
-
+}
+#infoTextMobile {
+    display:none;
 }
 
 .drumKit{
@@ -160,7 +146,9 @@ body{
     width: 780px;
     height: 632px;
     right: 0px;
-    top: 135px;
+    top: 30px;
+    margin-bottom: 15px;
+    z-index:2;
 }
 
 #drumImage{
@@ -170,8 +158,6 @@ body{
     height: 418px;
     right: 30px;
     top: 166px;
-
-
 }
 
 #crash{
@@ -179,7 +165,6 @@ body{
     height: 199px;
     top: 173px;
     left: -12px;
-
     position: absolute;
     background: url(resources/plato1.png);
     
@@ -187,7 +172,6 @@ body{
     
 }
 
-/* PRUEBAS PARA TECLAS*/
 
 .crash-animation, .hiHat-animation, .rideCymbal-animation, 
 .highTom-animation, 
@@ -200,11 +184,6 @@ body{
     animation-fill-mode: both;
 }
 
-
-/*HASTA AQUÍ LAS PRUEBAS*/
-
-
-
 #crash:active, #hiHat:active, #rideCymbal:active, #highTom:active, #midTom:active, #snareDrum:active, #floorTom:active {
     animation-name: scale-up;
     animation-duration: 0.4s;
@@ -212,7 +191,6 @@ body{
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: both;
-
 }
 
 #hiHat{
@@ -221,45 +199,25 @@ body{
     height: 164px;
     left: calc(50% - 806px/2 + 87px);
     top: calc(50% - 350px/2 + 231px);
-    background: url(resources/platillo\ iz\ abajo.png);
-    
-
-    
-    
+    background: url(resources/platillo\ iz\ abajo.png); 
 }
 
 
-/* #hiHat:active{
 
-    animation-name: scale-up;
-    animation-duration: 0.4s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: both;
 
-} */
+
 
 #highTom{
     width: 138px;
     height: 135px;
     left: 217px;
     top: 264px;
-
     position: absolute;
     background: url(resources/tambor\ 1.png);
 }
 
-/* #highTom:active{
 
-    animation-name: scale-up;
-    animation-duration: 0.4s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: both;
    
-} */
 
 #rideCymbal{
 
@@ -267,82 +225,41 @@ body{
     height: 164px;
     left: 479px;
     top:237px;
-
     position: absolute;
-    background: url(resources/platillo\ derecho.png );
-
-    
+    background: url(resources/platillo\ derecho.png ); 
 }
 
-/* #rideCymbal:active{
-    animation-name: scale-up;
-    animation-duration: 0.4s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: both;
 
-} */
 
 #midTom{
     width: 175px;
     height: 152px;
     left: 354px;
     top: 260px;
-
     position: absolute;
     background: url(resources/tambor-superior-derecha.png);
 }
 
-/* #midTom:active{
-    animation-name: scale-up;
-    animation-duration: 0.4s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: both;
-} */
 
 #snareDrum{
     width: 164px;
     height: 153px ;
     left: 219px;
     top: 400px;
-
     position: absolute;
     background: url(resources/tambor-inferior-izquierdo.png);
 }
 
-/* #snareDrum:active{
-    animation-name: scale-up;
-    animation-duration: 0.4s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: both;
-} */
+
 
 #floorTom{
     width:149px;
     height: 138px;
     left: 409px;
     top:427px;
-
     position: absolute;
     background: url(resources/tambor-inferior-derecho.png);
 }
-
-/* #floorTom:active{
-    animation-name: scale-up;
-    animation-duration: 0.4s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: both;
-} */
-
-
-
 
 
 
@@ -361,30 +278,166 @@ body{
 
 footer {
     background-color:#03c1eb ;
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding:20px;
+    padding: 15px;
     color:#482d57;
     align-content: center;
     gap: 30px; 
+    bottom: 0;
+    position: absolute;
+    width:100%;
+    height: 120px;
 }
 
-#h3-footer {
+#h3Footer {
   font-family: 'Kanit', sans-serif;
   font-weight: 700;
   font-size: 40px;
 }
 
-#text-footer {
+#textFooter {
   font-family: 'Kanit', sans-serif;
   font-weight: 200;
   font-size: 18px;
 }
 
-#button-pricing {
+#buttonPricing {
   background-color: transparent;
   color:#482d57;
   border-color: #482d57;
   align-self:center;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 990px) {
+footer {
+    position: relative;
+    height: 90px;
+    }
+
+#h3Footer {
+  font-size: 30px;
+}
+
+#textFooter {
+  font-size: 14px;
+}
+
+.mainContainer {
+    height : 700px;
+}
+
+.infoContainer{
+    width: 100%;
+    height: 632px;
+    top: 100px;
+    display: flex;
+    justify-content:flex-start;
+    gap:40px;
+    z-index:1;
+   }
+
+.slogan {
+    width: 45%;
+    display: inline-block;
+    margin-top: 0px;
+    z-index:1;
+}
+
+#sloganText {
+    width: 400px;
+    height: 90px;
+    font-size: 40px;
+    line-height: 80px;}
+
+.secondaryInfo {
+    width: 30%;
+    position: relative;
+    height: 108px;
+    top: 120px;
+    left: 121px;
+    z-index:1;
+}
+
+ .musicForEveryone {
+    width: 300px;
+    height: 160px;
+    top: 120px;
+    left: 15px;
+    position: relative;
+    transform: rotate(-5.82deg);}
+   
+#infoText {
+    font-size: 25px;
+    line-height: 30px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+    .mainContainer {
+        height:510px;
+    }
+
+
+   .infoContainer {
+        width: 100%;
+    }
+
+    .musicForEveryone {
+
+        width: 100px;
+        top: 100px;
+        left: 5px;
+        position: relative;
+        transform: none;}
+
+    #sloganText {
+        width: 300px;
+        height: 90px;
+        font-size: 32px;
+        line-height: 80px;
+    }
+
+    .secondaryInfo {
+        width: 100%;
+        position: relative;
+        height: 108px;
+        top: 50px;
+        left: 21px;}
+    
+    #infoText {
+        display: none;
+    }
+    #infoTextMobile {
+        display:block;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 53px;
+        line-height: 54px;
+        display: flex;
+        align-items: center;
+        color: #76508e;
+        margin:0;
+    }
+    
+    .drumKit{
+        display: none;
+    } 
+ 
+    footer {
+    bottom:0;
+    height:200px;
+    position:relative;
+    }
+
+    #h3Footer {
+    font-size: 30px;
+    }
+
+    #textFooter {
+    font-size: 14px;
+    }
+    
 }
