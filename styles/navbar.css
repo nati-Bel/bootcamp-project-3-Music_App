@@ -1,6 +1,12 @@
+header{
+  height: 80px;
+  width: auto;
+}
+
 .navbar {
     background-color:#482d57;
 }
+
 .nav-link {
     color:#86f3b8 !important;
 }

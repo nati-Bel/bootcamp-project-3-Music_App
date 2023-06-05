@@ -16,7 +16,6 @@ function createAudioPlayer(elementId, audioFile) {
   createAudioPlayer("midTom", "sonidos/tom2.wav");
   createAudioPlayer("snareDrum", "sonidos/tom3.wav");
   
-
 //animaciones
 
 function addAnimationEventListener(elementId, key, animationClass) {
@@ -59,8 +58,6 @@ function addAnimationEventListener(elementId, key, animationClass) {
      'p': 'redoblante.wav'
    };
 
-
-  
    function handleKeyDown(event) {
      let key = event.key.toLowerCase();
      if (soundMap.hasOwnProperty(key)) {

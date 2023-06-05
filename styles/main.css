@@ -1,5 +1,13 @@
-body{
+html, body{
     background-color: #86f3b8;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+main{
+    width: 100%;
+    height: 100%;
 }
 
 .mainContainer{
@@ -68,10 +76,10 @@ body{
     align-items: center;
     color: #76508e;
 }
+
 #infoTextMobile {
     display:none;
 }
-
 
 .drumKit{
     display: flex;
@@ -83,6 +91,7 @@ body{
     margin-bottom: 15px;
     z-index:2;
 }
+
 .crash-animation, .hiHat-animation, .rideCymbal-animation, 
 .highTom-animation, 
 .midTom-animation, .snareDrum-animation, .floorTom-animation {
@@ -228,8 +237,6 @@ body{
     top:53px;
     color:#482d57;
 }
-
-
 
 @keyframes scale-up{
     0%{
