@@ -42,4 +42,4 @@ This project exists thanks to all the people who contribute:
   - María -- https://github.com/maria-corco
   - Natalia -- https://github.com/nati-Bel
   - Sara -- https://github.com/Sara-Poyo-Pastor
-  - Yolanda -- https://github.com/alfaryolanda79
+  - Yolanda -- https://github.com/yzadeveloper/
